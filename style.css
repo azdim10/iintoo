@@ -1,0 +1,136 @@
+@font-face{
+    font-family:'Barlow';
+    src:url('./barlow/Barlow-Black.otf');
+    src:local('Barlow-Black'), local('Barlow-Black'),
+    url('./barlow/Barlow-Black.otf') format('opentype');
+}
+@font-face{
+    font-family:'Barlow';
+    src:url('./barlow/Barlow-Bold.otf');
+    src:local('Barlow-Bold'), local('Barlow-Bold'),
+    url('./barlow/Barlow-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family:'Barlow';
+    src:url('./barlow/Barlow-Light.otf');
+    src:local('Barlow-Light'), local('Barlow-Light'),
+    url('./barlow/Barlow-Light.otf') format('opentype');
+}
+@font-face{
+    font-family:'Barlow';
+    src:url('./barlow/Barlow-Medium.otf');
+    src:local('Barlow-Medium'), local('Barlow-Medium'),
+    url('./barlow/Barlow-Medium.otf') format('opentype');
+}
+.page{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    font-family: 'Barlow';
+}
+.logo{
+    z-index: 1;
+    position: absolute;
+    max-width: 100px;
+}
+.background{
+    z-index: 0;
+    max-width: 55vw;
+}
+.left-section{
+    margin-right: 30px;
+    max-width: 55vw;
+}
+.right-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    max-width: 100%;
+}
+.facebook-logo{
+    max-width: 15px;
+    margin-right: 20px;
+}
+.linkedin-logo{
+    max-width: 15px;
+    margin-right: 20px;
+}
+.facebook-button{
+    font-size: 12px;
+    color: white;
+    padding:10px 30px 0px 25px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: #255A9B;
+    font-family: 'Barlow';
+    white-space: nowrap;
+}
+.linkedin-button{
+    font-size: 12px;
+    color: white;
+    padding:10px 30px 25px 25px;
+    display: flex;
+    font-family: 'Barlow';
+    max-height: 29px;
+    border: none;
+    background-color: #0076B6;
+}
+.Login{
+    gap:20px;
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    margin: 0;
+    color: #2a4a5c;
+}
+.subtitle{
+    margin:0;
+    color: #2a4a5c;
+}
+.span{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    gap: 15px;
+    min-height: 45px;
+}
+.input_mail{
+    border: 0.1px solid #2a4a5c;
+    min-width: 195px;
+}
+.input_phone{
+    border: 0.1px solid #2a4a5c;
+    min-width: 195px;
+}
+.second-title{
+    margin:0;
+    color: #2a4a5c;
+}
+.second-subtitle{
+    margin:0;
+    color: #2a4a5c;
+}
+.select{
+    display: flex;
+    margin:0;
+    font-size: 16px;
+}
+.notifications{
+    font-size: 10px;
+    color:#2a4a5c
+}
+.create-button{
+    background-color: #3698FB;
+    color: white;
+    border: none;
+    border-radius: 0.24em;
+    max-width: 200px;
+    min-height: 40px;
+    font-family: 'Barlow';
+}
